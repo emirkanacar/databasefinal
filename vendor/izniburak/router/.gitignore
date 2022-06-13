@@ -1,0 +1,9 @@
+/.git/
+/.DS_Store
+/composer.lock
+/vendor/
+/index.php
+/.htaccess
+.idea
+.phpunit.result.cache
+

@@ -1,0 +1,24 @@
+{
+    "description": "Veritabanı Final Ödevi",
+    "require": {
+        "jenssegers/blade": "^1.4",
+        "vlucas/valitron": "^1.4",
+        "filp/whoops": "^2.12",
+        "arrilot/dotenv-php": "^2.0",
+        "illuminate/database": "^8.40",
+        "nesbot/carbon": "^2.46",
+        "aura/session": "^2.1",
+        "verot/class.upload.php": "^2.1",
+        "izniburak/router": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./app",
+            "Core\\": "./core"
+        },
+        "files": [
+            "./app/helpers.php",
+            "./core/helpers.php"
+        ]
+    }
+}
